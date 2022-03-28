@@ -1,3 +1,5 @@
+// A program with more than one class
+
 using D = System.Console;
 
 class A

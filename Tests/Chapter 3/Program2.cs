@@ -1,3 +1,5 @@
+// Using Aliasing
+
 using A = System.Console;
 class program2
 {
