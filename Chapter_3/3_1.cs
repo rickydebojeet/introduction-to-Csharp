@@ -1,6 +1,6 @@
 /* 
 A Program to read two strings from the keyboard using the ReadLine statements
-and Display them on one line using two WriteLine Statements 
+and Display them on one line using two Write Statements 
 */
 using A = System.Console;
 class StringReader
