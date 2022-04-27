@@ -1,15 +1,14 @@
 // Command Line arguments as Input
-
-using A = System.Console;
+using syc = System.Console;
 
 class program4
 {
-    // For this to Work We need to give argument while executing
+    // For this to work we need to give argument while executing
     // e.g: Program4.exe C Sharp
-    public static void Main(string[] B)
+    public static void Main(string[] args)
     {
-        A.WriteLine("Welcome To");
-        A.Write(B[0]);
-        A.Write(" " + B[1]);
+        syc.WriteLine("Welcome To");
+        syc.Write(args[0]);
+        syc.Write(" " + args[1]);
     }
 }
