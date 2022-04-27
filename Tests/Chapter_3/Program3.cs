@@ -1,12 +1,13 @@
 // Parsing String Objects to WriteLine Methods
 
-using A = System.Console;
+using syc = System.Console;
 
 class program3
 {
     public static void Main()
     {
-        string Name = "C Sharp";
-        A.WriteLine(Name);
+        // Name is assigned a string
+        string name = "C Sharp";
+        syc.WriteLine(name);
     }
 }
