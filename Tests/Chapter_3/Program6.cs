@@ -1,13 +1,12 @@
 // Interactive Console Input
-
-using A = System.Console;
+using syc = System.Console;
 
 class ICI
 {
     public static void Main()
     {
-        A.WriteLine("Enter your name");
-        string Name = A.ReadLine();
-        A.WriteLine("Hello " + Name);
+        syc.WriteLine("Enter your name");
+        string name = syc.ReadLine();
+        syc.WriteLine("Hello " + name);
     }
 }
