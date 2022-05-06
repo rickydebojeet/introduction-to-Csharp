@@ -14,3 +14,4 @@ class nameChnager
         syc.WriteLine(args[2] + " " + args[0] + " " + args[1]);
     }
 }
+// to run in windows 3_2.cs John F Kennedy
