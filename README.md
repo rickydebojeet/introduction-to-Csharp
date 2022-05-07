@@ -83,7 +83,7 @@ Follow this route if you are a beginner it will start with total basics, includi
 	ricky@Rickys-Air % csc Program7.cs /main:ICI
 	```
 - Questions (Try it yourself before checking the solutions)
-	1. [Write a program to read two strings from the keyboard using the ReadLine statements and display them on one line using two Write statements.](./Chapter_3/3_1.cs)
+	1. [Write a program to read two strings from the keyboard using the ReadLind statements and display them on one line using two Write statements.](./Chapter_3/3_1.cs)
 
 	2. [Write a program that thakes the line of tex "John F Kennedy" as a command line input and displays the following output "Kennedy John F".](./Chapter_3/3_2.cs)
 
