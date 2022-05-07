@@ -2,7 +2,7 @@
 
 C# pronounced as _C Sharp_ is a Object Oriented Programming Language by Microsoft. It is derived from C, C++, Java, Visual Basic. It is a modern language with type safe and garbage collection unlike C++ and its predecessor C. But we can use unsafe operation like pointers, and arrow operations but it will make the program type unsafe.
 
-This repository is meant to be used with the book [_"Programming in C# : A Primer"_](introduction_to_c#_Balagurusamy.pdf) by **E Balagurusamy**.
+This repository is meant to be used with the book [_"Programming in C# : A Primer"_](introduction_to_c%23_Balagurusamy.pdf) by **E Balagurusamy**.
 
 The repository is divided into 2 parts:
 
