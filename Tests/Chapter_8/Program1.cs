@@ -3,7 +3,7 @@ using System;
 class Method //class containing the method
 {
     // DEFINE THE CUBE METHOD
-    int Cube(int x)
+    int cube(int x)
     {
         return (x * x * x);
     }
@@ -14,11 +14,12 @@ class MethodTest
     public static void Main()
     {
         // CREATE OBJECT FOR INVOKING CUBE
-        Method M = new Method();
+        Method M = new Method ();
         // INVOKING THE CUBE METHOD
-        int y = M.Cube(5); //Method call
+        int y = M.cube(5); //Method call
         //RESULT
         Console.WriteLine(y);
-
     }
 }
+
+//! getting error error CS0122: 'Method.cube(int)' is inaccessible due to its protection level
