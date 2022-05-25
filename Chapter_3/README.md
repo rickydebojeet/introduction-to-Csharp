@@ -40,7 +40,7 @@
 
   - **[Multiple Main Methods](./Practice/Program7.cs)**: If there are multiple Main() methods in a program with multiple classes. We need to provide starting point by specifying from which class we should start the program. The CLI for that will be:
 
-    ```sh
+    ```console
     ricky@Rickys-Air % csc Program7.cs /main:ICI
     ```
 

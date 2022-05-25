@@ -20,19 +20,19 @@ I am currently planning to include more modules in this repository including DSA
 
 For compiling the C# files:
 
-```sh
+```console
 csc <filename.cs>
 ```
 
 For running the executable file in Windows:
 
-```sh
+```console
 <filename.exe>
 ```
 
 For running the executable file in mac OS (using mono):
 
-```sh
+```console
 mono <filename.exe>
 ```
 
