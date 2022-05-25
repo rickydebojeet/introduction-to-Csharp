@@ -1,4 +1,4 @@
-# Introduction to C#
+# :open_book: Introduction to C#
 
 C# pronounced as _C Sharp_ is a Object Oriented Programming Language by Microsoft. It is derived from C, C++, Java, Visual Basic. It is a modern language with type safe and garbage collection unlike C++ and its predecessor C. But we can use unsafe operation like pointers, and arrow operations but it will make the program type unsafe.
 
@@ -12,11 +12,11 @@ The repository is divided into 2 parts:
 
 I am currently planning to include more modules in this repository including DSA _(Data Structures and Algorithms)_ which has some flavours of OOP _(Objected Oriented Programming)_
 
-## Pre-Requisites
+## :triangular_flag_on_post: Pre-Requisites
 
 .NET Framework is required to compile the code into MSIL _(Intermediate Language)_ using the CLR _(Common Language Runtime)_
 
-## Usage
+## :man_technologist: Usage
 
 For compiling the C# files:
 
@@ -36,142 +36,17 @@ For running the executable file in mac OS (using mono):
 mono <filename.exe>
 ```
 
-## Roadmap
+## :roller_coaster: Roadmap
 
 Follow this route if you are a beginner it will start with total basics, including some problems.
 
-### Chapter 1: Introduction to C#
+1. **[Overview of C#](./Chapter_3/README.md)**
+2. **[Literals, Variables and Data Types](./Chapter_4/README.md)**
+3. **[Decision Making and Branching](./Chapter_6/README.md)**
+4. **[Decision Making and Looping](./Chapter_7/README.md)**
+5. **[Methods in C#](./Chapter_8/README.md)**
 
-- **Introduction (Get some familirization with its syntax)**
-
-  - **[A Simple C# Program](./Tests/Chapter_3/Program1.cs)**: This is where we start. In this program we are just printing one string in a console. There are few things that should be noted:
-
-	- **Class Declaration:** The line `class program1` declares a class, which is an object-oriented construct. Since C# is a true object-oriented language therefore, 'everything' must be placed inside a class. Moreover **class** in later topics.
-
-	- **The Main Method:** The line `public static void Main()` defines a method named Main (M in capital). Every C# executable program must include the Main() method in one of the classes. This is the 'starting point' for executing the program. This line contains a number of keywords there are defined below:
-
-		- `public`: The keyword is an access modifier that tells the C# compiler that the Main method is accesible by anyone.
-
-		- `static`: The keyword static declares that the Main method is a global one and can be called without creating an instance of the class. The compiler stores the address of the method as the entry point and uses this information to begin execution before any objects are created.
-
-		- `void`: The keyword void is a type modifier that states that the Main method does not return any value.
-
-  - **[Using Aliasing](./Tests/Chapter_3/Program2.cs)**: Before knowing about aliasing we first need to know what is namespaces. Let's consider the code `System.Console.WriteLine();` here System is a namespace (scope/library) where different classes are present (like Console), and the classses contains defination of different Methods (like WriteLine()). We can write `using System;` in the start of a program to use the elements of that namespce without using the namespace as prefix. Now let's go back to our program if we use certain class a lot we can use what is known as aliasing. `using syc = System.Console;` here we are using 'syc' as an alias for System.Console, so we can replace it with syc all together.
-
-  - **[Printing String Variables](./Tests/Chapter_3/Program3.cs)**: In this program isted of writng constant string output to the Console. We will use a string object to store a string value and we will pass the object as a parameter tot the WriteLine Method.
-  
-  - **[Command Line Inputs as Arguments](./Tests/Chapter_3/Program4.cs)**: What if we want our program to behave in a particular way depending on the input provided at the time of execution? We can achieve that by using what is known as *Command Line Arguments*. Command Line arguments are parameters that are supplied to the Main method at the time of invoking  it for execution. The CLI (Command Line Interface of the program will be something like this): 
-  	```zsh
-  	  ricky@Rickys-Air % program4.exe C Sharp
-	  Welcome to C Sharp
-	  ricky@Rickys-Air %
-  	```
-	So what is really happening is C is stored in args[0] and Sharp is stored in args[1] and we have used it while printing it in the Console.
-
-  - **[A Program with more than one Class](./Tests/Chapter_3/Program5.cs)**: In this program we have more than class. In the class where the Main() method is present `class program5` we are instantiating one object `test` of that class `testClass` and we are calling one method `fun()` from that class.
-
-  - **[Interactive Console Input](./Tests/Chapter_3/Program6.cs)**: Till now we have only use two ways to give values to string objects:
-
-	- Using an assignment statement.
-
-	- Through command line arguments.
-
-	But it is also possible to give values to string variables interactively through the keyboard at the time of execution (runtime). It is done using `System.Console.ReadLine()`. It should be noted that the method returns a string so to initialize a integer or float we need to use another method from Convert class i.e. `System.Convert`. So the final code for initializing one integer varible will be somthing like `System.Convert.ToInt32(System.Console.ReadLine());`
-
-  - **[Multiple Main Methods](./Tests/Chapter_3/Program7.cs)**: If there are multiple Main() methods in a program with multiple classes. We need to provide starting point by specifying from which class we should start the program. The CLI for that will be:
-	```sh
-	ricky@Rickys-Air % csc Program7.cs /main:ICI
-	```
-- Questions (Try it yourself before checking the solutions)
-	1. [Write a program to read two strings from the keyboard using the ReadLine statements and display them on one line using two Write statements.](./Chapter_3/3_1.cs)
-
-	2. [Write a program that thakes the line of tex "John F Kennedy" as a command line input and displays the following output "Kennedy John F".](./Chapter_3/3_2.cs)
-
-	3. [Define two classes, one with a method to display the string "C Sharp" and other to display the string "Programming". Write a program using these classes to display a single line output as follows: "C Sharp Programming"](./Chapter_3/3_3.cs)
-
-	4. [Write a program that assigns two double type values to two variables, computes their sum, assigns the result to a third variable, and displays all the three values in one line of output.](./Chapter_3/3_4.cs)
-
-	5. [Write a program to display the following pattern on the screen.](./Chapter_3/3_5.cs)
-		```sh
-				    X
-				  X X X
-				X X X X X
-				  X X X
-				    X
-		```
-
-
-### Chapter 2: Literals, Variables and Data Types
-
-This diagram should give a basic idea about what are the data types available for C# Language. What's interesting is that Value Types are fixed in length and it is stored in stack. Where as Variable Types are not fixed and is stored in heap.
-<p align="center">
-  <img src="./README_images/data_types.png" width="350">
-</p>
-
-- **Initialization of variables**
-  ```C#
-  int variable1 = 100; // Initialization of integer
-  char variable2 = 'x'; // Initialization of character
-  double variable3 = 45.20; // Initialization of double
-  bool variable4 = true; // Initialization of boolean
-
-  float x, y, z; // Declaration of x, y, z
-  int m, n = 10; // Declaration of m, n and iinitialization of n
-  int m = 10, n = 5; // Declaration and initialization of m, n
-
-  // Variables with modifiers
-  float a = 12.3F;
-  uint b = 123U;
-  long c = 123L;
-  ulong d = 123UL;
-  decimal e = 1.23M;
-  ```
-  All interger numbers by default represent int type values. If we want the value to represent any other integer type, we must append U to dentote and unsigned type, L to denote long and UL to denote unsigned long. Similarly, all floating-point numbers are double by default. Therefore we must append F or M to the numbers to denote float and decimal types respectively.
-
-- **Constant Variables**
-  ```C#
-  const int ROWS = 10;
-  const int COLS = 20;
-
-  const int m = 5;
-  const int n = m * 10; // Correct
-  int m = 5;
-  const int n = m * 10; // Error
-  ```
-  Somethings that should be noted:
-  - After declaration of constants, they should not be assigned any other value.
-  - Constants cannot be declared inside a method. They should be declared only at class level.
-
-
-- **Boxing and Unboxing**:
-
-  In object-oriented programming, methods are invoked using objects.
-
-  Converting value-type or refernce type into object type is called as boxing.
-  ```C#
-  int m = 10;
-  object om = m; // Creates a box to hold m
-  // OR
-  object om = (object) m; // C-style casting
-  ```
-  Note that the boxing operation creates a copy of the value of the m integer to the object om. Consider the following code:
-  ```C#
-  int m = 10;
-  object om = m;
-  m = 10;
-  Console.WriteLine(m); // m = 20
-  Console.WriteLine(om); // om = 10
-  ```
-  Conversly, the conversion from an object type back to a value type is known as unboxing.
-  ```C#
-  int m = 500;
-  object  om = m;
-  int n = int(om);
-  ```
-I hope that everyone has a little bit of understanding of Operators and Expressions. It's almost same as C Programming Language. So I am going to skip it, if anyone want to learn more about it can find it in the book.
-
-
-## Contributing
+## :writing_hand: Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
