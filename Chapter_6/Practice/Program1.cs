@@ -15,9 +15,9 @@ class count
         {
             if (weight[i] < 50.0 && height[i] > 170.0)
             {
-                count1++;
+                count1++; // Executed when condition is true
             }
-            count++;
+            count++; // Always executed
         }
 
         count2 = count - count1;
