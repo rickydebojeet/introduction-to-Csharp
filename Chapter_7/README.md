@@ -2,8 +2,8 @@
 
 <!-- Pagination -->
 <p style="text-align:left;">
-  <a href="../Chapter_6/README.md">⬅️ Previous Chapter </a>
+  <a href="../Chapter_6/">⬅️ Previous Chapter </a>
     <span style="float:right;">
-        <a text-align="right" href="../Chapter_8/README.md">Next Chapter ➡️</a>
+        <a text-align="right" href="../Chapter_8/">Next Chapter ➡️</a>
     </span>
 </p>
