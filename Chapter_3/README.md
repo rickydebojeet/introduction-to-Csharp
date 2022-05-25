@@ -64,6 +64,6 @@
      ```
 
 ---
-<p align="center"><a href="../">🏠 Go to Home </a>&emsp;&emsp;|&emsp;&emsp;<a  href="../Chapter_4/">Next Chapter ➡️</a></p>
+<p align="center"><a href="../README.md">🏠 Go to Home </a>&emsp;&emsp;|&emsp;&emsp;<a  href="../Chapter_4/">Next Chapter ➡️</a></p>
 
 
