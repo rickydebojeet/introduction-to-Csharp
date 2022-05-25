@@ -13,7 +13,7 @@ class program5
 {
     public static void Main()
     {
-        testClass ob1 = new A(); // Creating 'ob1' object
+        testClass ob1 = new testClass(); // Creating 'ob1' object
         ob1.fun(); // calling fun() function
     }
 }
