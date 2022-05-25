@@ -2,9 +2,16 @@
 
 This diagram should give a basic idea about what are the data types available for C# Language. What's interesting is that Value Types are fixed in length and it is stored in stack. Where as Variable Types are not fixed and is stored in heap.
 
-<p align="center">
-  <img src="./data_types.png" width="350">
-</p>
+  ```mermaid
+  flowchart TD
+      A[C# Data Types] --> B((Value Types))
+      A --> C((Pointers))
+      A -->D((Reference Types))
+      B -->Ea[Predefined Types <br/></br>1.Integers<br/>2.Real Numbers<br/>3.Booleans<br/>4.Characters]
+      B -->Eb[User-defined Types<br/></br>1.Enumerations<br/>2.Structures]
+      D -->Ef[Predefined Types <br/></br>1.Objects<br/>2.Strings]
+      D -->Eg[User-defined Types <br/></br>1.Classes<br/>2.Arrays<br/>3.Delegates<br/>4.Interfaces]
+  ```
 
 - **Initialization of variables**
 
