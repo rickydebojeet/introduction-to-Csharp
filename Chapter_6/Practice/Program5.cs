@@ -1,19 +1,46 @@
-// Use of if....else
+// Use of switch-case
+/* 
+|---------------------------|
+| 80 - 100 | Honours        |
+| 60 - 79  | Ist Division   |
+| 50 - 59  | IInd Division  |
+| 40 - 49  | IIIrd Division |
+|  0 - 39  | Fail           |
+|---------------------------|
+*/
 
-class decision
+using syc = System.Console;
+class switchRank
 {
     public static void Main()
     {
-        int[] numbers = { 51, 60, 55, 72 };
-        int even = 0, odd = 0;
-        for (int i = 0; i < numbers.Length; i++)
+        int[] Rno = { 111, 222, 333, 444 };
+        int[] Marks = { 81, 65, 55, 35 };
+
+        for (int i = 0; i < Rno.Length; i++)
         {
-            if (numbers[i] % 2 == 0)
-                even++;
-            else
-                odd++;
+            int val = Marks[i] / 10;
+            switch (val)
+            {
+                case 10:
+                case 9:
+                case 8:
+                    syc.WriteLine(Rno[i] + " Honours");
+                    break;
+                case 7:
+                case 6:
+                    syc.WriteLine(Rno[i] + " Ist Division");
+                    break;
+                case 5:
+                    syc.WriteLine(Rno[i] + " IInd Division");
+                    break;
+                case 4:
+                    syc.WriteLine(Rno[i] + " IIIrd Division");
+                    break;
+                default:
+                    syc.WriteLine(Rno[i] + " Fail");
+                    break;
+            }
         }
-        System.Console.WriteLine("No. of even numbers is {0}.", even);
-        System.Console.WriteLine("No. of odd numbers is {0}.", odd);
     }
 }
