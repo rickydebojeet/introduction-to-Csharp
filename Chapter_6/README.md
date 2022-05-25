@@ -14,10 +14,5 @@ The if statement can be implemented in different forms depending on the complexi
 1. **[Simple if Statement](./Practice/Program1.cs):** In this program we have used simple if statement to count students that is meeting the criteria `weight < 50 && height > 170`. You may ignore the for loop as we are going to learn about it in the next lesson. 
 
     One thing that should be noted is that in case of C programming language `a == b` resulted to a integer value i.e 1 or 0 so error such as `a = b` was undected by the compiler. But in case of C# the code `a == b` results to a boolean value. So error detection is definite.
-
-<p style="text-align:left;">
-  <a href="../Chapter_4/">⬅️ Previous Chapter </a>
-    <span style="float:right;">
-        <a text-align="right" href="../Chapter_7/">Next Chapter ➡️</a>
-    </span>
-</p>
+---
+<p align="center"><a href="../Chapter_4/">⬅️ Previous Chapter </a>&emsp;&emsp;|&emsp;&emsp;<a  href="../Chapter_7/">Next Chapter ➡️</a></p>

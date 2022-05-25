@@ -63,9 +63,7 @@
              X
      ```
 
-<p style="text-align:left;">
-  <a href="../">🏠 Go to Home </a>
-    <span style="float:right;">
-        <a text-align="right" href="../Chapter_4/">Next Chapter ➡️</a>
-    </span>
-</p>
+---
+<p align="center"><a href="../">🏠 Go to Home </a>&emsp;&emsp;|&emsp;&emsp;<a  href="../Chapter_4/">Next Chapter ➡️</a></p>
+
+
