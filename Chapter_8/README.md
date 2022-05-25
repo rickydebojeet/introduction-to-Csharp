@@ -1,8 +1,8 @@
 # Chapter 8
 
 <p style="text-align:left;">
-  <a href="../Chapter_7/README.md">⬅️ Previous Chapter </a>
+  <a href="../Chapter_7/">⬅️ Previous Chapter </a>
     <span style="float:right;">
-        <a text-align="right" href="../README.md">Home ➡️</a>
+        <a text-align="right" href="../">Home ➡️</a>
     </span>
 </p>
