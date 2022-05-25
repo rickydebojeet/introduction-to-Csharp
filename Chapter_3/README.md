@@ -43,12 +43,14 @@
     ```console
     ricky@Rickys-Air % csc Program7.cs /main:ICI
     ```
+  
+  - **[Use of Math Class](./Practice/Program8.cs):** In System Namespace there is a Math Class which contains various methods, and object variable related to mathematical operations.
 
 - **Questions (Try it yourself before checking the solutions)**
 
   1. [Write a program to read two strings from the keyboard using the ReadLine statements and display them on one line using two Write statements.](./Exercise/3_1.cs)
 
-  2. [Write a program that thakes the line of tex "John F Kennedy" as a command line input and displays the following output "Kennedy John F".](./Exercise/3_2.cs)
+  2. [Write a program that thakes the line of text "John F Kennedy" as a command line input and displays the following output "Kennedy John F".](./Exercise/3_2.cs)
 
   3. [Define two classes, one with a method to display the string "C Sharp" and other to display the string "Programming". Write a program using these classes to display a single line output as follows: "C Sharp Programming"](./Exercise/3_3.cs)
 
