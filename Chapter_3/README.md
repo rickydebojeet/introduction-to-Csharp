@@ -64,8 +64,8 @@
      ```
 
 <p style="text-align:left;">
-  <a href="../README.md">🏠 Go to Home </a>
+  <a href="../">🏠 Go to Home </a>
     <span style="float:right;">
-        <a text-align="right" href="../Chapter_4/README.md">Next Chapter ➡️</a>
+        <a text-align="right" href="../Chapter_4/">Next Chapter ➡️</a>
     </span>
 </p>
