@@ -40,11 +40,11 @@ mono <filename.exe>
 
 Follow this route if you are a beginner it will start with total basics, including some problems.
 
-1. **[Overview of C#](./Chapter_3/README.md)**
-2. **[Literals, Variables and Data Types](./Chapter_4/README.md)**
-3. **[Decision Making and Branching](./Chapter_6/README.md)**
-4. **[Decision Making and Looping](./Chapter_7/README.md)**
-5. **[Methods in C#](./Chapter_8/README.md)**
+1. **[Overview of C#](./Chapter_3/)**
+2. **[Literals, Variables and Data Types](./Chapter_4/)**
+3. **[Decision Making and Branching](./Chapter_6/)**
+4. **[Decision Making and Looping](./Chapter_7/)**
+5. **[Methods in C#](./Chapter_8/)**
 
 ## :writing_hand: Contributing
 
