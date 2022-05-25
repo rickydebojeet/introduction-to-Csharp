@@ -79,9 +79,9 @@ This diagram should give a basic idea about what are the data types available fo
   I hope that everyone has a little bit of understanding of Operators and Expressions. It's almost same as C Programming Language. So I am going to skip it, if anyone want to learn more about it can find it in the book.
 
 <p style="text-align:left;">
-  <a href="../Chapter_3/README.md">⬅️ Previous Chapter </a>
+  <a href="../Chapter_3/">⬅️ Previous Chapter </a>
     <span style="float:right;">
-        <a text-align="right" href="../Chapter_6/README.md">Next Chapter ➡️</a>
+        <a text-align="right" href="../Chapter_6/">Next Chapter ➡️</a>
     </span>
 </p>
 
