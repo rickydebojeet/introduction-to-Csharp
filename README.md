@@ -64,5 +64,4 @@ Please make sure to update tests as appropriate.
 - [Swaubhik Chakraborty](https://swaubhik.github.io)
 
 ## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+Distributed under the [MIT](https://choosealicense.com/licenses/mit/) License. See `LICENSE.txt` for more information.
