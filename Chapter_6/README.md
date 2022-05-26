@@ -75,6 +75,17 @@ The expression must be an integer type or char or string type.
 
 #### **Questions (Try it yourself before checking the solutions)**
 <!--TODO Add Question no 6.9 here -->
+ [A cloth showroom has announced the following seasonal discounts on purchase of items:](./Exercise/6_9.cs)
+
+| **PURCHASE AMOUNT** | **DISCOUNT**   |                |
+|-----------------|------------|----------------|
+|                 |**MILL CLOTH** | **HANDLOOM ITEMS** |
+| 0 - 100         | -          | 5.0%           |
+| 101 - 200       | 5.0%       | 7.5%           |
+| 201 - 300       | 7.5%       | 10.0%          |
+| Above 300       | 10.0%      | 15.0%          |
+
+  [*Write a program using switch and if statements to compute the net amount to be paid by a customer*](./Exercise/6_9.cs)
 
 ---
 <p align="center"><a href="../Chapter_4/">⬅️ Previous Chapter </a>&emsp;&emsp;|&emsp;&emsp;<a  href="../Chapter_7/">Next Chapter ➡️</a></p>
