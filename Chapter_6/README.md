@@ -42,6 +42,19 @@ The if statement can be implemented in different forms depending on the complexi
 3. **[Nested if..else Statement](./Practice/Program3.cs):** When a series of decision are involved, we may have to use more than if..else statement in nested forms. In the program largest value out of 3 values is found out using the nested if..else statement.
 
 <!--TODO: Add flowchart -->
+```mermaid
+  flowchart TD
+    A( )--Entry--> B{Test<br/> condition1?}
+    B--False--> D[Statements3]
+    B--True--> C{Test<br/>Condition2<br/>?}
+    C--True--> E[Sratement-1]
+    C--False--> G[Sratement-2]
+    E-->H(( ))
+    G-->H
+    D-->H
+    H--> F[Statement-x]
+    F--Next Statement--> I( )
+```
 
 4. **[The else..if Ladder](./Practice/Program4.cs):** There is another way of putting ifs together when multipath decisions are involved. A multipath decision is a chain of ifs in which the statement associated with each else is an if. In this program we are grading students based on some rules. Please follow the comments in the code for better understandng of the grading scheme.
 
