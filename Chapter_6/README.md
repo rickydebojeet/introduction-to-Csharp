@@ -59,6 +59,9 @@ The if statement can be implemented in different forms depending on the complexi
 4. **[The else..if Ladder](./Practice/Program4.cs):** There is another way of putting ifs together when multipath decisions are involved. A multipath decision is a chain of ifs in which the statement associated with each else is an if. In this program we are grading students based on some rules. Please follow the comments in the code for better understandng of the grading scheme.
 
 <!--TODO: Add flowchart -->
+<p align="center">
+  <img width="600px" height="500px" src="https://www.codesansar.com/storage/app/media/c-programming/if-else-if-statement.png" alt="else-if-ladder">
+</p>
 
 We can use if statements to make a selection scheme. But, the complexity of such a program increases dramatically when the alternative icrease. The program becomes difficult to read and follow. That's where switch statements are usefull. The switch statement tests the value of a given variable (or expression) against a list of case values and when a match is found, the statements that are associated with it are executed.
 
@@ -66,6 +69,7 @@ The expression must be an integer type or char or string type.
 - **[Using switch..case](./Practice/Program5.cs):** The same program that was solved using the else..if ladder is solved using the switch..case statements. It can be seen that the scheme simplifies the program a lot.
 
   <!--TODO: Add flowchart -->
+
 
 #### **Questions (Try it yourself before checking the solutions)**
 <!--TODO Add Question no 6.9 here -->
