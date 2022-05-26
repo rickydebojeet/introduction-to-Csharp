@@ -69,7 +69,9 @@ The expression must be an integer type or char or string type.
 - **[Using switch..case](./Practice/Program5.cs):** The same program that was solved using the else..if ladder is solved using the switch..case statements. It can be seen that the scheme simplifies the program a lot.
 
   <!--TODO: Add flowchart -->
-
+<p align="center">
+  <img width="400px" height="500px" src="https://uploads-ssl.webflow.com/6184b461a39ff1011f8c0582/624bffae64d6b60b5e49105e_Switch%20Case%20Flowchart.png" alt="else-if-ladder">
+</p>
 
 #### **Questions (Try it yourself before checking the solutions)**
 <!--TODO Add Question no 6.9 here -->
