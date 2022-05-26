@@ -30,6 +30,15 @@ The if statement can be implemented in different forms depending on the complexi
 
 <!--TODO: Add flowchart -->
 
+```mermaid
+  flowchart TD
+    Start--Entry--> B{boolean<br/> expression?}
+    B--False--> D[False-block<br/> Statements]
+    B--True--> C[True-block<br/>Statements]
+    C--> E[Sratement-x]
+    D--> E[Statement-x]
+```
+
 3. **[Nested if..else Statement](./Practice/Program3.cs):** When a series of decision are involved, we may have to use more than if..else statement in nested forms. In the program largest value out of 3 values is found out using the nested if..else statement.
 
 <!--TODO: Add flowchart -->
