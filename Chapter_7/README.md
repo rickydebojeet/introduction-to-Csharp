@@ -28,7 +28,7 @@ A computer is well suited for repetitive operations. Using looping, a sequence o
 2. [Write a program that computes and prints factorial of a given m](./Exercise/7_2.cs)
 3. [Write a program to compute the sum of the digits of a given integer number.](./Exercise/7_3.cs)
 4. [Write a program using a do..while loop to calculate and print the first m Fibonacci numbers.](./Exercise/7_4.cs)
-5. [Write a program to evaluate the following investment equation $P * (1+r)^n$.](./Exercise/7_5.cs)
+5. [Write a program to evaluate the following investment equation P * (1+r)<sup>n</sup>.](./Exercise/7_5.cs)
 6. [Write a program to print the following outputs using for loops.](./Exercise/7_6_a.cs)
     ```console
         (a) 1
