@@ -5,17 +5,26 @@ Normally a set of statements in a program is executed sequentially but normally 
 When the branching is based on a particular condition, it is known as conditional branching. If branching takes place without any decision, it is known as unconditional branching.
 
 C# language has the following control or decision-making statements:
-  1. `if` statement
-  2. `switch` statement
-  3. Conditional operator statement
+1. `if` statement
+2. `switch` statement
+3. Conditional operator statement
 
 #### **Familirization with Decision Making**
 The if statement can be implemented in different forms depending on the complexity of the conditions to be tested.
-1. **[Simple if Statement](./Practice/Program1.cs):** In this program we have used simple if statement to count students that is meeting the criteria `weight < 50 && height > 170`. You may ignore the for loop as we are going to learn about it in the next lesson. 
+1. **[Simple if Statement](./Practice/Program1.cs):** In this program we have used simple if statement to count students that is meeting the criteria `weight < 50 && height > 170`. You may ignore the for loop as we are going to learn about it in the next lesson.
 
-    One thing that should be noted is that in case of C programming language `a == b` resulted to a integer value i.e 1 or 0 so error such as `a = b` was undected by the compiler. But in case of C# the code `a == b` results to a boolean value. So error detection is definite.
+   One thing that should be noted is that in case of C programming language `a == b` resulted to a integer value i.e 1 or 0 so error such as `a = b` was undected by the compiler. But in case of C# the code `a == b` results to a boolean value. So error detection is definite.
 
-    <!--TODO: Add flowchart -->
+   <!--TODO: Add flowchart -->
+
+```mermaid
+  flowchart TD
+    Start--Entry--> B{boolean<br/> expression?}
+    B--False--> D
+    B--True--> C[Statement<br/>block]
+    C -->  D[Statement-x]
+    D--nextstatement--> END
+```
 
 2. **[The if..else Statement](./Practice/Program2.cs):** If the if expression results to true, then the the first block statement(s) are executed; otherwise, the second block statement(s) are executed. In either case, either first or second block will be executed, not both. In this program either even or odd are found out easily using if..else statement.
 
@@ -29,10 +38,10 @@ The if statement can be implemented in different forms depending on the complexi
 
 <!--TODO: Add flowchart -->
 
-  We can use if statements to make a selection scheme. But, the complexity of such a program increases dramatically when the alternative icrease. The program becomes difficult to read and follow. That's where switch statements are usefull. The switch statement tests the value of a given variable (or expression) against a list of case values and when a match is found, the statements that are associated with it are executed.
+We can use if statements to make a selection scheme. But, the complexity of such a program increases dramatically when the alternative icrease. The program becomes difficult to read and follow. That's where switch statements are usefull. The switch statement tests the value of a given variable (or expression) against a list of case values and when a match is found, the statements that are associated with it are executed.
 
-  The expression must be an integer type or char or string type.
-  - **[Using switch..case](./Practice/Program5.cs):** The same program that was solved using the else..if ladder is solved using the switch..case statements. It can be seen that the scheme simplifies the program a lot.
+The expression must be an integer type or char or string type.
+- **[Using switch..case](./Practice/Program5.cs):** The same program that was solved using the else..if ladder is solved using the switch..case statements. It can be seen that the scheme simplifies the program a lot.
 
   <!--TODO: Add flowchart -->
 
