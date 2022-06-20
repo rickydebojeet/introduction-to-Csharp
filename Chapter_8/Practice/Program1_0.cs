@@ -1,6 +1,6 @@
-// defining and invoking a method
+// Defining and invoking a method
 using System;
-class Method //class containing the method
+class Method // Class containing the method
 {
     // DEFINE THE CUBE METHOD
     public int cube(int x)
