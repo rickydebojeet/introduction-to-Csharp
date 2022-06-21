@@ -48,16 +48,7 @@ Follow this route if you are a beginner it will start with total basics, includi
 6. **[Handling Arrays](./Chapter_9/)**
 
 ## :writing_hand: Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
+Contributions are welcome see [Contributing](./CONTRIBUTING.md) for more information.
 
 ## :+1: Credits
 
