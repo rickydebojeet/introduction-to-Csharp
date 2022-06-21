@@ -35,4 +35,4 @@ Methods are declared inside the body of a class, normally after the declaration 
 
 
 ---
-<p align="center"><a href="../Chapter_7/">⬅️ Previous Chapter </a>&emsp;&emsp;|&emsp;&emsp;<a  href="../">Next Chapter ➡️</a></p>
+<p align="center"><a href="../Chapter_7/">⬅️ Previous Chapter </a>&emsp;&emsp;|&emsp;&emsp;<a  href="../Chapter_9/">Next Chapter ➡️</a></p>
