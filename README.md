@@ -45,6 +45,7 @@ Follow this route if you are a beginner it will start with total basics, includi
 3. **[Decision Making and Branching](./Chapter_6/)**
 4. **[Decision Making and Looping](./Chapter_7/)**
 5. **[Methods in C#](./Chapter_8/)**
+6. **[Handling Arrays](./Chapter_9/)**
 
 ## :writing_hand: Contributing
 
