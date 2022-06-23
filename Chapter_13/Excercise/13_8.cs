@@ -80,3 +80,16 @@ class Origin
 
     }
 }
+
+class Test
+{
+    //initialise two integers, add them and display it
+    public static void Main()
+    {
+        int a = 10;
+        int b = 20;
+        int c = a + b;
+        Console.WriteLine("Sum of {0} and {1} is {2}", a, b, c);
+    }
+
+}
