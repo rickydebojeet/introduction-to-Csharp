@@ -36,7 +36,7 @@
 
     - Through command line arguments.
 
-    But it is also possible to give values to string variables interactively through the keyboard at the time of execution (runtime). It is done using `System.Console.ReadLine()`. It should be noted that the method returns a string so to initialize a integer or float we need to use another method from Convert class i.e. `System.Convert`. So the final code for initializing one integer varible will be somthing like `System.Convert.ToInt32(System.Console.ReadLine());`
+    But it is also possible to give values to string variables interactively through the keyboard at the time of execution (runtime). It is done using `System.Console.ReadLine()`. It should be noted that the method returns a string so to initialize a integer or float we need to use another method from Convert class i.e. `System.Convert`. So the final code for initializing one integer varible will be something like `System.Convert.ToInt32(System.Console.ReadLine());`
 
   - **[Multiple Main Methods](./Practice/Program7.cs)**: If there are multiple Main() methods in a program with multiple classes. We need to provide starting point by specifying from which class we should start the program. The CLI for that will be:
 
