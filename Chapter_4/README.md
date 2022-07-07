@@ -70,7 +70,7 @@ This diagram should give a basic idea about what are the data types available fo
   ```C#
   int m = 10;
   object om = m;
-  m = 10;
+  m = 20;
   Console.WriteLine(m); // m = 20
   Console.WriteLine(om); // om = 10
   ```
