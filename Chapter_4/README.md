@@ -56,7 +56,7 @@ This diagram should give a basic idea about what are the data types available fo
 
   In object-oriented programming, methods are invoked using objects.
 
-  Converting value-type or refernce type into object type is called as boxing.
+  Converting value-type into object type is called as boxing.
 
   ```C#
   int m = 10;
