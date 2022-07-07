@@ -16,7 +16,7 @@
 
   - **[Using Aliasing](./Practice/Program2.cs)**: Before knowing about aliasing we first need to know what is namespaces. Let's consider the code `System.Console.WriteLine();` here System is a namespace (scope/library) where different classes are present (like Console), and the classses contains defination of different Methods (like WriteLine()). We can write `using System;` in the start of a program to use the elements of that namespce without using the namespace as prefix. Now let's go back to our program if we use certain class a lot we can use what is known as aliasing. `using syc = System.Console;` here we are using 'syc' as an alias for System.Console, so we can replace it with syc all together.
 
-  - **[Printing String Variables](./Practice/Program3.cs)**: In this program isted of writng constant string output to the Console. We will use a string object to store a string value and we will pass the object as a parameter tot the WriteLine Method.
+  - **[Printing String Variables](./Practice/Program3.cs)**: In this program instead of writng constant string output to the Console. We will use a string object to store a string value and we will pass the object as a parameter tot the WriteLine Method.
 
   - **[Command Line Inputs as Arguments](./Practice/Program4.cs)**: What if we want our program to behave in a particular way depending on the input provided at the time of execution? We can achieve that by using what is known as _Command Line Arguments_. Command Line arguments are parameters that are supplied to the Main method at the time of invoking it for execution. The CLI (Command Line Interface of the program will be something like this):
 
