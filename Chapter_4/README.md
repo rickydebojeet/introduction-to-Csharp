@@ -1,6 +1,6 @@
 # Chapter 4: Literals, Variables and Data Types
 
-This diagram should give a basic idea about what are the data types available for C# Language. What's interesting is that Value Types are fixed in length and it is stored in stack. Where as Variable Types are not fixed and is stored in heap.
+This diagram should give a basic idea about what are the data types available for C# Language. What's interesting is that Value Types are fixed in length and it is stored in stack. Where as Reference Types are not fixed and is stored in heap.
 
   ```mermaid
   flowchart TD
